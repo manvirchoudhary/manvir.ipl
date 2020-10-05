@@ -52,7 +52,7 @@ function saveData(result) {
 
 main()
 
-app.use(express.static('public'))
+app.use(express.static('Public'))
 app.use(bodyParser.json())
 app.get('/extra-runs-final', (req, res) => {
   csv()
